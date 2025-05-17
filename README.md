@@ -5,3 +5,17 @@ El Sistema de pedido de números para atención al cliente es una solución dise
 Este sistema permite a los clientes solicitar un número de atención a través de una interfaz física o digital, integrándose con una pantalla o sistema de llamadas para informar cuándo y dónde serán atendidos. A su vez, permite al personal encargado visualizar y llamar al siguiente cliente en la cola, garantizando un flujo de atención justo, organizado y sin aglomeraciones.
 
 El sistema también puede incluir funcionalidades adicionales como estadísticas de atención, reimpresión de números, múltiples tipos de servicio y configuración de parámetros, lo que lo convierte en una herramienta flexible y adaptable a distintos contextos de atención al público.
+
+## ⚙️ Funciones principales del sistema
+### Solicitud de número de atención
+El cliente puede generar un número de turno mediante una interfaz sencilla (pantalla táctil, botón físico o aplicación web/móvil).
+### Impresión o visualización del número
+El sistema proporciona al cliente su número de atención, ya sea en forma impresa o en pantalla, junto con el tipo de servicio si corresponde.
+### Gestión de la cola de espera
+El sistema organiza automáticamente a los clientes en una cola virtual, respetando el orden de llegada y clasificando por tipo de atención si es necesario.
+### Llamado al siguiente cliente
+El personal de atención puede visualizar la lista de turnos pendientes y llamar al siguiente número disponible a través de un panel de control.
+### Visualización del turno en pantalla
+El número llamado se muestra en una pantalla de atención junto con el módulo, ventanilla o agente que lo atenderá.
+### Reimpresión 
+Permite al cliente recuperar su número si lo ha perdido
