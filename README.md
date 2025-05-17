@@ -45,3 +45,14 @@ Comportamientos opcionales o condicionales `<<extend>>`, como la reimpresión de
 
 ## 🔹 2. Diagrama de Clases UML con Patrones Aplicados
 ![DiagramaDeClases](https://github.com/user-attachments/assets/32eae0f7-ad22-4adf-8b32-23eca03ccecd)
+### 🧩 Justificación Arquitectónica y Patrones Aplicados
+### Seleccion de patrones
+Patrón Singleton (en SistemaGeneradorDeTurnos):
+
+Este patrón garantiza que exista una única instancia de la clase encargada de generar los números de turnos. Esto es fundamental para evitar conflictos en la asignación de números duplicados y para mantener el estado global del último número generado, asegurando la coherencia y sincronización del sistema.
+
+Patrón Prototype (en Ticket):
+El patrón Prototype se usa para clonar objetos Ticket. Esto facilita la creación rápida de nuevos tickets basados en una plantilla inicial (ticketBase), asegurando que cada ticket tenga sus propios datos únicos (número, fecha/hora, cliente) sin tener que construir desde cero cada vez, mejorando la eficiencia y reduciendo errores.
+
+Patrón Adapter (en AdapterWeb y AdapterAPP):
+Este patrón se utiliza para adaptar la interfaz de visualización a distintos entornos (web y app móvil), permitiendo que ambos usen la misma lógica de negocio interna pero con diferentes mecanismos de entrada/salida. De esta manera, el sistema puede integrar fácilmente nuevas plataformas con mínimos cambios en la lógica central.
