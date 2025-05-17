@@ -26,4 +26,4 @@ El sistema también puede incluir funcionalidades adicionales como estadísticas
 - Ejercitar el pensamiento arquitectónico en la separación de responsabilidades, modularidad y escalabilidad.
 
 ## 🔹 1. Diagrama de Caso de Uso UML
-![diagrama caso de uso]([Imagenes/DiagramaCasoDeUso.png](https://github.com/OrangeCat169/Imagenes/blob/main/DiagramaCasoDeUso.png))
+(![DiagramaCasoDeUso](https://github.com/user-attachments/assets/e3f9a901-9d4e-444d-b91b-a0e8077f11e2)
