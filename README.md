@@ -8,14 +8,14 @@ El sistema también puede incluir funcionalidades adicionales como estadísticas
 
 ## ⚙️ Funciones principales del sistema
 ### Solicitud de número de atención
-El cliente puede generar un número de turno mediante una interfaz sencilla (pantalla táctil, botón físico o aplicación web/móvil).
+- El cliente puede generar un número de turno mediante una interfaz sencilla (pantalla táctil, botón físico o aplicación web/móvil).
 ### Impresión o visualización del número
-El sistema proporciona al cliente su número de atención, ya sea en forma impresa o en pantalla, junto con el tipo de servicio si corresponde.
+- El sistema proporciona al cliente su número de atención, ya sea en forma impresa o en pantalla, junto con el tipo de servicio si corresponde.
 ### Gestión de la cola de espera
-El sistema organiza automáticamente a los clientes en una cola virtual, respetando el orden de llegada y clasificando por tipo de atención si es necesario.
+- El sistema organiza automáticamente a los clientes en una cola virtual, respetando el orden de llegada y clasificando por tipo de atención si es necesario.
 ### Llamado al siguiente cliente
-El personal de atención puede visualizar la lista de turnos pendientes y llamar al siguiente número disponible a través de un panel de control.
+- El personal de atención puede visualizar la lista de turnos pendientes y llamar al siguiente número disponible a través de un panel de control.
 ### Visualización del turno en pantalla
-El número llamado se muestra en una pantalla de atención junto con el módulo, ventanilla o agente que lo atenderá.
+- El número llamado se muestra en una pantalla de atención junto con el módulo, ventanilla o agente que lo atenderá.
 ### Reimpresión 
-Permite al cliente recuperar su número si lo ha perdido
+- Permite al cliente recuperar su número si lo ha perdido
