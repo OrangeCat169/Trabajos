@@ -34,9 +34,9 @@ usuarios y el sistema, estableciendo los límites de la aplicación.
 
 Se reconocen dos actores principales: Cliente y Personal de Atención, cuyas responsabilidades y flujos han sido diferenciados para facilitar la trazabilidad funcional y la implementación modular.
 
-Asimismo, se utilizaron correctamente las relaciones <<include>> y <<extend>> para modelar:
+Asimismo, se utilizaron correctamente las relaciones <<"include">> y <<"extend">> para modelar:
 
-Comportamientos obligatorios que forman parte de un flujo principal (<<include>>), como solicitar el rut cada vez que se necesite interactuar con el usuario.
+Comportamientos obligatorios que forman parte de un flujo principal (<<"include">>), como solicitar el rut cada vez que se necesite interactuar con el usuario.
 
-Comportamientos opcionales o condicionales (<<extend>>), como la reimpresión del número en caso de pérdida o la selección de tipo de servicio cuando el sistema lo permite.
+Comportamientos opcionales o condicionales (<<"extend">>), como la reimpresión del número en caso de pérdida o la selección de tipo de servicio cuando el sistema lo permite.
 
