@@ -28,11 +28,9 @@ El sistema también puede incluir funcionalidades adicionales como estadísticas
 ## 🔹 1. Diagrama de Caso de Uso UML
 ![DiagramaCasoDeUso](https://github.com/user-attachments/assets/e3f9a901-9d4e-444d-b91b-a0e8077f11e2)
 
-## 🧾 Descripción general del Diagrama de Caso de Uso
+### 🧾 Descripción general del Diagrama de Caso de Uso
 El análisis funcional del sistema permitió identificar de manera precisa los actores clave y los casos de uso principales que intervienen en el proceso de atención al cliente mediante turnos. El diagrama representa de forma estructurada las interacciones entre los 
 usuarios y el sistema, estableciendo los límites de la aplicación.
-
-Se reconocen dos actores principales: Cliente y Personal de Atención, cuyas responsabilidades y flujos han sido diferenciados para facilitar la trazabilidad funcional y la implementación modular.
 
 Asimismo, se utilizaron correctamente las relaciones <<"include">> y <<"extend">> para modelar:
 
@@ -40,3 +38,7 @@ Comportamientos obligatorios que forman parte de un flujo principal (<<"include"
 
 Comportamientos opcionales o condicionales (<<"extend">>), como la reimpresión del número en caso de pérdida o la selección de tipo de servicio cuando el sistema lo permite.
 
+### 👤 Actores principales
+- Cliente: Persona que solicita un número.
+- Recepcionista: Persona que atiende a los clientes.
+- Administrador del sistema: Persona encargada de configurar parámetros del sistema. 
