@@ -55,3 +55,36 @@ El patrón Prototype se usa para clonar objetos Ticket. Esto facilita la creaci�
 
 ***Patrón Adapter (en AdapterWeb y AdapterAPP)***:
 Este patrón se utiliza para adaptar la interfaz de visualización a distintos entornos (web y app móvil), permitiendo que ambos usen la misma lógica de negocio interna pero con diferentes mecanismos de entrada/salida. De esta manera, el sistema puede integrar fácilmente nuevas plataformas con mínimos cambios en la lógica central.
+### 1. Singleton (ServicioTurnos)
+Justificación:
+Se seleccionó Singleton para la gestión centralizada de la generación y asignación de números de espera, garantizando que solo exista una instancia única que controle el orden y la secuencia de turnos asignados. Esto evita la duplicación o conflicto en la asignación de números, asegurando la integridad y consistencia del sistema.
+
+Intención arquitectónica:
+
+Centralizar el control de la generación de turnos para evitar inconsistencias.
+
+Facilitar la sincronización de estados y datos entre diferentes módulos del sistema.
+
+Evitar múltiples instancias que pudieran provocar errores en la secuencia de turnos.
+### 2. Prototype (Ticket)
+Justificación:
+El sistema debe generar rápidamente tickets con información personalizada (número, fecha, cliente), y el patrón Prototype permite clonar un ticket base para crear nuevas instancias sin necesidad de construirlas desde cero, mejorando la eficiencia y reduciendo la complejidad en la generación de turnos.
+
+Intención arquitectónica:
+
+Permitir la creación rápida de nuevas instancias de tickets basadas en un prototipo.
+
+Reducir la complejidad y tiempo en la generación de números de espera.
+
+Mantener flexibilidad para personalizar cada ticket sin afectar el objeto base.
+### 3.Adapter (AdapterWeb y AdapterAPP)
+Justificación:
+El sistema debe interactuar con diferentes tipos de dispositivos (web y app móvil) que requieren interfaces distintas. El uso del patrón Adapter desacopla la lógica de negocio del sistema de las interfaces específicas, permitiendo que se adapten distintos clientes sin modificar el núcleo del sistema.
+
+Intención arquitectónica:
+
+Asegurar independencia tecnológica entre la lógica central y las interfaces de usuario.
+
+Facilitar la integración de nuevas plataformas o dispositivos en el futuro.
+
+Permitir mantener y evolucionar el sistema de manera modular y escalable.
