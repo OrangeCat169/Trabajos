@@ -20,10 +20,10 @@ El sistema también puede incluir funcionalidades adicionales como estadísticas
 ### Reimpresión 
 - Permite al cliente recuperar su número si lo ha perdido
 
-# 🔍 Objetivos del Modelado
+## 🔍 Objetivos del Modelado
 - Desarrollar una transición completa desde la visión funcional hasta el despliegue físico.
 - Aplicar patrones de diseño en el diseño lógico y reflejarlos en la arquitectura de implementación.
 - Ejercitar el pensamiento arquitectónico en la separación de responsabilidades, modularidad y escalabilidad.
 
-# 🔹 1. Diagrama de Caso de Uso UML
+## 🔹 1. Diagrama de Caso de Uso UML
 ![diagrama caso de uso](C:/Users/pc/Desktop/Santo Tomas/DiagramaCasoDeUso.png)
