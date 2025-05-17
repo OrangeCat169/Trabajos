@@ -32,11 +32,11 @@ El sistema también puede incluir funcionalidades adicionales como estadísticas
 El análisis funcional del sistema permitió identificar de manera precisa los actores clave y los casos de uso principales que intervienen en el proceso de atención al cliente mediante turnos. El diagrama representa de forma estructurada las interacciones entre los 
 usuarios y el sistema, estableciendo los límites de la aplicación.
 
-Asimismo, se utilizaron correctamente las relaciones '<<include>>' y '<<extend>>' para modelar:
+Asimismo, se utilizaron correctamente las relaciones `<<include>>` y `<<extend>>` para modelar:
 
-Comportamientos obligatorios que forman parte de un flujo principal '<<include>>', como solicitar el rut cada vez que se necesite interactuar con el usuario.
+Comportamientos obligatorios que forman parte de un flujo principal `<<include>>`, como solicitar el rut cada vez que se necesite interactuar con el usuario.
 
-Comportamientos opcionales o condicionales '<<extend>>', como la reimpresión del número en caso de pérdida o la selección de tipo de servicio cuando el sistema lo permite.
+Comportamientos opcionales o condicionales `<<extend>>`, como la reimpresión del número en caso de pérdida o la selección de tipo de servicio cuando el sistema lo permite.
 
 ### 👤 Actores principales
 - Cliente: Persona que solicita un número.
