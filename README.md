@@ -42,3 +42,6 @@ Comportamientos opcionales o condicionales `<<extend>>`, como la reimpresión de
 - Cliente: Persona que solicita un número.
 - Recepcionista: Persona que atiende a los clientes.
 - Administrador del sistema: Persona encargada de configurar parámetros del sistema. 
+
+## 🔹 2. Diagrama de Clases UML con Patrones Aplicados
+![DiagramaDeClases](https://github.com/user-attachments/assets/32eae0f7-ad22-4adf-8b32-23eca03ccecd)
