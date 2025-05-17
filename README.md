@@ -137,13 +137,13 @@ Minimización de riesgos ante cambios inadvertidos.
 
 Este ejercicio arquitectónico refleja una aproximación profesional con foco en la trazabilidad, buenas prácticas y uso justificado de patrones de diseño.
 
-Selección consciente de patrones: Cada patrón fue elegido en función de necesidades concretas (Adapter, Singleton, Prototype), no como elemento decorativo.
+**Selección consciente de patrones**: Cada patrón fue elegido en función de necesidades concretas (Adapter, Singleton, Prototype), no como elemento decorativo.
 
-Trazabilidad completa: Se estableció un hilo conductor desde los casos de uso → diseño de clases → implementación técnica, asegurando coherencia con los requerimientos del negocio.
+**Trazabilidad completa**: Se estableció un hilo conductor desde los casos de uso → diseño de clases → implementación técnica, asegurando coherencia con los requerimientos del negocio.
 
-Modularización efectiva: La separación lógica de responsabilidades y el uso de componentes desacoplados fortalecen la mantenibilidad y escalabilidad del sistema.
+**Modularización efectiva**: La separación lógica de responsabilidades y el uso de componentes desacoplados fortalecen la mantenibilidad y escalabilidad del sistema.
 
-Enfoque profesional: Este repositorio sirve como referencia arquitectónica alineada a estándares de la industria y puede ser reutilizado o ampliado en proyectos futuros.
+**Enfoque profesional**: Este repositorio sirve como referencia arquitectónica alineada a estándares de la industria y puede ser reutilizado o ampliado en proyectos futuros.
 ## ⚠️ Nota
 Este repositorio es exclusivamente documental.
 No se incluye código fuente, ya que el foco es el modelado arquitectónico.
